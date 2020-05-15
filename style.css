@@ -1,0 +1,162 @@
+.titre-nav {
+   text-align: center;
+    color: #ff6384;
+}
+#sidebar-wrapper {
+    z-index: 1;
+    position: fixed;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #2C3E50;
+    
+}
+.icon-lateral {
+    z-index: 1;
+    position:fixed;
+    left: -35px;
+    top: 66px;
+    
+    background: #2C3E50;
+  
+    
+}
+
+
+#page-content-wrapper {
+    top:40px;
+    left: 20px;
+    width: 95%;
+    position: absolute;
+    padding: 15px;
+    
+}
+#dash {
+    border: 4px ridge #ff6384;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+    border-left-width:15px;
+    border-left-color: aqua;
+    
+    
+   
+    
+}
+
+
+
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+  
+}
+
+
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+    
+}
+.btn-success {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: 0px;
+    background-color: #ff6384;
+}
+.btn-success:hover {
+   background-color: aqua;
+}
+.btn-success active {
+    background-color: aqua;
+}
+
+.sidebar-nav {
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.sidebar-nav li {
+    box-shadow: 1px 1px 3px white;
+    text-indent: 20px;
+    line-height: 40px;
+    
+}
+
+.sidebar-nav li a {
+    margin-left: 10px;
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    
+}
+
+.sidebar-nav li a:hover {
+    background: #ff6384;
+}
+.side-icon {
+    
+   height: 185px;
+    padding: 0px;
+    list-style: none;
+    
+}
+ .side-icon li {
+    box-shadow: 1px 1px 3px white;
+    text-indent: 22px;
+    line-height: 40px;
+    
+}
+.side-icon li a {
+    margin-right: 3px;
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    
+}
+.side-icon li:hover {
+    background: #ff6384;
+}
+
+.block-one {
+  
+}
+#graphique-top {
+    top: 10px;
+    z-index: 3;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: 4px ridge #ff6384;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+   
+}
+#graphique-mid-left{
+   top: 25px;
+    left: px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: 4px ridge #ff6384;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+    
+}
+#graphique-mid-right{
+   top: 25px;
+    left: px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: 4px ridge #ff6384;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+    
+}
+#sign-in {
+    position: absolute;
+    left: 550px;
+    bottom: 70px;
+    border-radius: 10px;
+    background-color: #ff6384
+}

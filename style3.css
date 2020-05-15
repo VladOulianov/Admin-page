@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff6384;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color:  #ff6384;
+;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+h3 {
+    color: aqua;
+    text-align: center;
+}
+.btn {
+    
+    background-color: aqua !important;
+}
+.btn:hover {
+    color: red !important;
+    border: 2px solid #fff;
+}
+
+#regis {
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+}
+#regis a {
+    color: black;
+}
+#regis a:hover {
+    color: aqua;
+}
+.bite {
+    position: absolute;
+    bottom: 15px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 2px solid #ff6384;
+    border-radius: 5px;
+}
+.lien-valide {
+    color: black
+}
